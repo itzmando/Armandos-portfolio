@@ -1,3 +1,4 @@
+/* My index.html css style code*/
 body{
     background-color: crimson;
 }
@@ -32,4 +33,20 @@ li a {
 }
 .photo {
     width: 250px; display: block; float: right; padding-right: 350px; padding-top: 75px;
+}
+/* My about.html css style code*/
+body {
+    background-color: crimson;
+}
+.about {
+    font-size: 60px; font-family: cambria; text-align: center; color:whitesmoke; font-style:italic; border-bottom: solid;
+}
+.hobbies {
+    border-bottom: solid; color:whitesmoke; font-size: 30px; font-weight: bold; padding-left: 200px;
+}
+.hb2 {
+    font-size: 20px; width: 750px;
+}
+img {
+    width: 250px; float: right; padding-right: 200px;
 }
