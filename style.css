@@ -1,0 +1,35 @@
+body{
+    background-color: crimson;
+}
+
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: darkgray; padding-left: 15px; padding-right: 15px; font-family: georgia;
+}
+.navdiv {
+    display: flex; align-items: center; justify-content: space-between;
+}
+.name {
+    font-size: 30px; font-weight: 600; color: black;
+}
+li {
+    list-style: none; display:inline-block; 
+}
+li a {
+    font-size: 20px; font-weight: bold; color: black; margin-right: 20px;
+}
+.info {
+    font-size: 50px; font-weight: bold; color: whitesmoke; padding-left: 210px;
+}
+.info1 {
+    font-size: 25px; font-family: verdana; color: whitesmoke; padding-left: 280px; width: 300px; padding-top: 35px;
+}
+.quote {
+    font-size: 30px; font-family: verdana; color: whitesmoke; font-family: cursive; margin: 250px; text-align: center;
+}
+.photo {
+    width: 250px; display: block; float: right; padding-right: 350px; padding-top: 75px;
+}
