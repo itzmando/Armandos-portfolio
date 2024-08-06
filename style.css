@@ -2,11 +2,9 @@
 body{
     background-color: crimson;
 }
-
 * {
     text-decoration: none;
 }
-
 .navbar {
     background-color: darkgray; padding-left: 15px; padding-right: 15px; font-family: georgia;
 }
@@ -17,7 +15,7 @@ body{
     font-size: 30px; font-weight: 600; color: black;
 }
 li {
-    list-style: none; display:inline-block; 
+    list-style: none; display:inline-block;
 }
 li a {
     font-size: 20px; font-weight: bold; color: black; margin-right: 20px;
@@ -68,4 +66,11 @@ img {
 }
 .art {
     width: 60px; margin-left: 800px; margin-bottom: 60px;
+}
+/*Webbar style*/
+.webbar{
+    background-color: darkgray; padding-left: 550px; font-family: georgia;
+}
+.webdiv{
+    display: flex; align-items: center; justify-content: space-between;
 }
