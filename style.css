@@ -32,7 +32,7 @@ li a {
     font-size: 30px; font-family: verdana; color: whitesmoke; font-family: cursive; margin: 250px; text-align: center;
 }
 .photo {
-    width: 250px; display: block; float: right; padding-right: 350px; padding-top: 75px;
+    width: 250px; float: right; padding-right: 350px; padding-top: 75px;
 }
 /* My about.html css style code*/
 body {
@@ -41,14 +41,20 @@ body {
 .about {
     font-size: 60px; font-family: cambria; text-align: center; color:whitesmoke; font-style:italic; border-bottom: solid;
 }
-.hobbies {
-    border-bottom: solid; color:whitesmoke; font-size: 30px; font-weight: bold; padding-left: 200px;
+.gym {
+    border-bottom: solid; color:whitesmoke; font-size: 20px; font-weight: bold; display: flex; justify-content: space-around; align-items: center;
 }
-.hb2 {
-    font-size: 20px; width: 750px;
+.bailes {
+    border-bottom: solid; color:whitesmoke; font-size: 20px; font-weight: bold; display: flex; justify-content: space-around; align-items: center;
+}
+.gaming {
+    border-bottom: solid; color:whitesmoke; font-size: 20px; font-weight: bold; display: flex; justify-content: space-around;; align-items: center;
 }
 img {
-    width: 250px; float: right; padding-right: 200px;
+    width: 250px;
+}
+p {
+    width: 550px;
 }
 /*My portfolio.html css style code*/
 .port {
@@ -58,16 +64,16 @@ img {
     background-color: white; font-weight: bold; width: 700px; margin-top: 50px; margin-left: 360px; text-align: center; 
 }
 .legacy2 {
-    font-size: 25px; text-align: left; border-bottom: solid; margin-left: 15px; margin-right: 15px;
+    font-size: 25px; text-align: center; border-bottom: solid; margin-left: 15px; margin-right: 15px;
 }
 .gtr{
-    width: 100px; margin-left: 800px; margin-bottom: 60px;
+    width: 100px; margin-left: 200px; margin-bottom: 60px;
 }
 .pcbuild {
-    width: 60px; margin-left: 800px; margin-bottom: 60px;
+    width: 60px; margin-left: 200px; margin-bottom: 60px;
 }
 .art {
-    width: 60px; margin-left: 800px; margin-bottom: 60px;
+    width: 60px; margin-left: 200px; margin-bottom: 60px;
 }
 /*Webbar style*/
 .webbar{
